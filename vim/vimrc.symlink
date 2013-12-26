@@ -178,7 +178,12 @@ endfunction
 map <leader>f :call ShowFileInNERDTree()<cr>
 
 " Plugin overrides
+source ~/.vim/autocmd.vim
+source ~/.vim/format.vim
+source ~/.vim/rails.vim
 source ~/.vim/ruby.vim
+source ~/.vim/common.vim
+source ~/.vim/ctrlp.vim
 
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
