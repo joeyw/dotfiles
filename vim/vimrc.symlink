@@ -166,6 +166,9 @@ set statusline+=\                               " Set ending space
 
 " NERDTree
 " ========
+set autochdir
+let NERDTreeChDirMode=2
+
 function! ShowFileInNERDTree()
   if exists("t:NERDTreeBufName")
     NERDTreeFind
