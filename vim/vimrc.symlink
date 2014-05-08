@@ -15,7 +15,6 @@ Bundle 'gmarik/vundle'
 
 Bundle 'L9'
 Bundle 'chriskempson/base16-vim'
-Bundle 'plasticboy/vim-markdown'
 Bundle 'gh:vim-ruby/vim-ruby'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/ZoomWin'
